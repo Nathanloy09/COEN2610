@@ -1,4 +1,4 @@
-/* create_list.c - create file 100 lines long  with numbers from 00-99 
+/* create_list.c - create file 100 lines long  with numbers from 000-999 
    @MarquetteU  - F. Frigo
    COEN 2610
    To compile: cc -g create_list.c -o create_list
@@ -20,8 +20,8 @@ int main(void)
         printf("Error!");   
         exit(1);             
     }
-    /* Loop to write 100 numbers to the file */
-    for( i = 0; i< 100; i++)
+    /* Loop to write 1000 numbers to the file */
+    for( i = 0; i< 1000; i++)
     {
         fprintf(fd, "%2.2d\n", i);
     }
